@@ -1,0 +1,87 @@
+.k1{
+    
+    text-align: center;
+    background: red;
+    color: white;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 8px;
+    margin-bottom: 10px;
+
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.bulka1{
+    
+    width: 24rem;
+    height: 6rem;
+    background-color: #deb787;
+    border-radius: 4rem 4rem 1rem 1rem;
+    border-bottom: 0.25rem solid #d1a15f;
+}
+.ser{
+    width: 22rem;
+    height: 1.5rem;
+    background-color: yellow;
+    border-bottom: solid #D3A15F;
+    border-radius: 1rem;
+
+}
+.pomidor{
+    width: 20rem;
+    height: 1rem;
+    background-color: red;
+}
+.mieso{
+    width: 23rem;
+    height: 2rem;
+    background-color: #CC6633;
+    border-bottom: solid  #993300;
+    border-radius: 4rem;
+
+}
+.cebula{
+    width: 19rem;
+    height: 2rem;
+    background-color: #800080;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.cebula-kolo{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: pink;
+}
+.mielone{
+    display: flex;
+}
+.mielony{
+    background-color: #A52A2A;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    border-color: solid  #A52A2A;
+}
+.ogorek{
+    width: 16rem;
+    height: 4rem;
+    background-color: #90EE90;
+    border-radius: 1rem 1rem 4rem 4rem;
+    border-color: 1rem solid #008000;
+}
+.bulka2{
+    width: 24rem;
+    height: 6rem;
+    background-color: #deb787;
+    border-radius: 1rem 1rem 4rem 4rem;
+    border-bottom: 0.25rem solid #d1a15f;
+}
+
