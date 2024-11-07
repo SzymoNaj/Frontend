@@ -1,10 +1,15 @@
 .container{
 
 }
-.h1{
+h1{
     color: orange;
 }
 label{
-    display: blok;
+    display: inline-block;
+    color: orange;
     font: 1rem 'Fira Sans', sans-serif;    
+}
+input,
+label{
+    margin: 0.4rem 0;
 }
