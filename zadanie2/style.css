@@ -1,15 +1,39 @@
-.container{
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+}
 
-}
-h1{
+h1 {
     color: orange;
 }
-label{
-    display: inline-block;
-    color: orange;
-    font: 1rem 'Fira Sans', sans-serif;    
+
+.personal-info, .contact-info {
+    display: flex; /* Ustawiamy flexbox, aby elementy były obok siebie */
+    gap: 1rem; /* Odstęp między polami */
+    margin-bottom: 1rem; 
 }
-input,
-label{
-    margin: 0.4rem 0;
+
+.field {
+    flex: 1; /* Pola wewnątrz .personal-info i .contact-info będą miały równą szerokość */
+}
+
+
+label {
+    display: block;
+    color: orange;
+    font: 1rem 'Fira Sans', sans-serif;
+    margin-bottom: 0.4rem;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"] {
+    width: 100%; /* Pola będą zajmowały całą szerokość kontenera */
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 0.5rem;
+    box-sizing: border-box;
 }
